@@ -1,0 +1,1 @@
+FROM mykro/java8-jre

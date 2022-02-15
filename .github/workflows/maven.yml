@@ -24,8 +24,8 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - run: mkdir -p yannick/wirk
+    - run: mkdir -p yannick
     - uses: actions/upload-artifact@v2
       with:
-        name: artifact
-        path: yannick/wikr/
+        name: artifact.jar
+        path: yannick

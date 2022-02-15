@@ -27,8 +27,8 @@ jobs:
     - run: mkdir artifacts && cp target/*.jar artifacts
     - uses: actions/upload-artifact@v2
       with:
-        name: yannick.jar
-        path: artifacts
+        name: artifacts
+        path: *.jar
     - name: Login to DockerHub
       uses: docker/login-action@v1
       with:

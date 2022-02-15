@@ -28,7 +28,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: artifacts
-        path: *.jar
+        path: target/*.jar
     - name: Login to DockerHub
       uses: docker/login-action@v1
       with:

@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.coralogix</groupId>
 	<artifactId>calculator</artifactId>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>calculator</name>
 	<description>Calculator project for demonstrating CI/CD pipelines</description>
